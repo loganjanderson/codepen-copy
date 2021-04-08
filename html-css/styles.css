@@ -1,0 +1,100 @@
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 0.5fr 1.2fr 1fr;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: whitesmoke;
+}
+.navigation-wrapper > .banner-logo img {
+    height: 30px;
+    padding-left: 10px;
+    
+}
+
+.navigation-wrapper > .nav-link-wrapper {
+    display:flex;
+    flex-direction: column;
+}
+
+.navigation-wrapper > .nav-link-wrapper h1 {
+    color: #D4C744;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 30;
+    font-size: .9em;
+
+}
+
+.nav-links {
+    display: flex;
+}
+
+.link {
+    padding-right: 20px;
+}
+
+.navigation-wrapper  >  .nav-link-wrapper > .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation-wrapper  >  .nav-link-wrapper > .nav-links > .spark a {
+color: grey;
+}
+.navigation-wrapper  >  .nav-link-wrapper > .nav-links > .spark i {
+    color: grey;
+    font-size: .8em;
+    padding-left: 4px;
+    }
+
+.btn-wrapper {
+     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-wrapper > .create-btn > .btn {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-size: 1em;
+    padding: 10px 25px;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+}
+
+.btn-wrapper > .create-btn > .btn  i {
+    color :#8AD26F; 
+}
+
+.btn-wrapper > .search-btn  {
+    color: grey;
+    font-size: 2em;
+    border: 1px solid  black;
+    border-radius: 5px;
+}
+
+.right-element {
+    padding-right: 20px;
+}
+
+.btn-wrapper > .login-btn > .btn {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-size: 1em;
+    padding: 10px 25px;
+    padding-right: 20px;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+}
+
+.btn-wrapper > .signup-btn > .btn {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-size: 1em;
+    padding: 10px 25px;
+    padding-right: 20px;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+}
